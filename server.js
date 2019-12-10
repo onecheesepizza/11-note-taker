@@ -12,6 +12,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //routing
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
+
+//alow access to public folder from front end
+app.use(express.static('public'));
 
 //listener
 app.listen(PORT, function() {
