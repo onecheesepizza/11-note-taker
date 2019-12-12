@@ -1,5 +1,5 @@
 //dependencies
-var db = require("../db/db.json");
+let db = require("../db/db.json");
 const fs = require('fs');
 
 //functions
