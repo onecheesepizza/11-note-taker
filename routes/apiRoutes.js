@@ -17,7 +17,6 @@ function reindexDB(dbArray){
 function writeDB(dbArray){
   fs.writeFile('./db/db.json', JSON.stringify(dbArray), function (err) {
     if (err) throw err;
-    console.log('Saved!');
   });
 }
 
@@ -25,7 +24,6 @@ function writeDB(dbArray){
 module.exports = function(app) {
   // API GET request route
   app.get("/api/notes", function(req, res) {
-    // console.log(db);
     res.json(db);
   });
 
