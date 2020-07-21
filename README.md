@@ -1,9 +1,9 @@
 # 11-note-taker
 ## Unit 11 Express Homework: Note Taker
 
-A note taking app demonstrating Express and Node.js deployed on Heroku.
+A note taking app demonstrating [Express](https://expressjs.com/) and [Node.js](https://nodejs.org/en/) deployed on [Heroku](https://www.heroku.com/).
 
-Deployed at: https://floating-atoll-22457.herokuapp.com/
+Live site: [https://ocp-note-taker.herokuapp.com/](https://ocp-note-taker.herokuapp.com/)
 
 ![screenshot](images/11-note-taker-sc.gif)
 
